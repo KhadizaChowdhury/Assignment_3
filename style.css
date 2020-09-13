@@ -11,7 +11,8 @@ body h1{
 	text-align: center;
 }
 input{text-align: center;
-	    padding: 10px 10px;
+    color:white;
+    padding: 10px 10px;
     background: transparent;
     border: none;
     border: 1px solid white;
