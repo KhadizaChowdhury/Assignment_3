@@ -19,6 +19,9 @@ input{text-align: center;
 input:focus{
 	outline: none;
 }
+::placeholder {
+  color: white;
+}
 label{
 	text-align:left;
 	font-weight: 150;
