@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#030b36;
+}
+body h1{
+	 font-weight: 400;
+	color:white ;
+	text-align: center;
+}
+input{text-align: center;
+	    padding: 10px 10px;
+    background: transparent;
+    border: none;
+    border: 1px solid white;
+}
+input:focus{
+	outline: none;
+}
+label{
+	text-align:left;
+	font-weight: 150;
+	font-size: 14px;
+	color:white; 
+}
+.form-box{
+	width: 350px;
+	box-shadow: 1px 4px #2a3261 ;
+	margin: auto;
+	background-color:#01051d;
+	border-radius: 3px;
+	padding: 55px 60px;
+	text-align: center;
+}
+.form-box h1{
+	text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.form-box form input{
+	width: 320px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.btn{
+	background:#030b36;
+	color: white;
+	border: 1px solid #030b36;
+}
+.social-icon{
+	text-align: center;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px 10px;
+}
+.social-icon ul li a i{
+	height: 40px;
+	width: 40px;
+	color: white;
+	line-height: 40px;
+	border-radius: 100%;
+	font-size: 18px;
+	transition: 0.5s;
+	z-index: 9999;
+}
+
+.f{
+	color: white;
+}
+.social-icon ul li a i:hover{
+	transform: scale(1.7);
+	transition: 0.5s;
+}
+.item-1{
+	margin-bottom: 30px;
+	border-radius: 25px;
+	background-color: #3f51b5;
+}
+.item-2{
+	margin-bottom: 30px;
+	border-radius: 25px;
+	background-color:#03a9f4d6;
+}
+.item-3{
+	margin-bottom: 30px;
+	border-radius: 25px;
+	background-color: #f44336;
+}
